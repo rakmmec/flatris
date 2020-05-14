@@ -7,7 +7,7 @@ const MIN_BLOCK_SIZE = 5;
 const MAX_BLOCK_SIZE = 100;
 
 let query = ``;
-
+let newquery = '';
 for (let i = MIN_BLOCK_SIZE; i <= MAX_BLOCK_SIZE; i++) {
   const isFirst = i === MIN_BLOCK_SIZE;
   const { width, height } = getPortraitSize(i);
